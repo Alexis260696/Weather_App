@@ -9,7 +9,6 @@ import time
 import json
 import pandas as pd
 
-from bs4  import BeautifulSoup
 from tqdm import tqdm
 from datetime import datetime
 
@@ -56,7 +55,7 @@ print(message)
 time.sleep(2)
 account_sid = TWILIO_ACCOUNT_SID 
 auth_token = TWILIO_AUTH_TOKEN
-
+"""
 client = Client(account_sid, auth_token)
 
 message = client.messages \
@@ -67,3 +66,4 @@ message = client.messages \
                  )
 
 print('Mensaje Enviado ' + message.sid)
+"""
